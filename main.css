@@ -1,0 +1,60 @@
+.shape{
+	margin-left: 400px;
+	margin-top: 20px;
+}
+#part1{
+	background: #606060;
+	height: 289px;
+	width: 75px;
+	transform: skewX(30deg);
+	position: relative;
+	bottom: 0px;
+	left: 3px;
+}
+#part2{
+	background: #606060;
+	height: 60px;
+	width: 330px;
+	transform: skewX(30deg);
+	position: relative;
+	right: 151px;
+	z-index: -11;
+}
+#part3{
+	background: #707070;
+	height: 60px;
+	width: 400px;
+	transform: skewX(-30deg);
+	position: relative;
+	right: 221px;
+}
+#part4{
+	background: #707070;
+	height: 300px;
+	width: 75px;
+	transform: skewX(-30deg);
+	position: relative;
+	right: 152px;
+	bottom: 300px;
+	z-index: -10;
+}
+#part5{
+	background: #808080;
+	height: 223px;
+	width: 75px;
+	transform: skewX(30deg);
+	position: relative;
+	right: 53px;
+	bottom: 643px;
+}
+#part6{
+	background: #808080;
+	height: 345px;
+	width: 75px;
+	transform: skewX(-30deg) skewY(41deg);
+	position: relative;
+	right: 195px;
+	bottom: 901px;
+	z-index: -10;
+}
+
